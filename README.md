@@ -14,29 +14,29 @@ Supports callbacks
 Just referenec the package and add the widget.
 The only required parameter is a list of widgets to show as slides
 
-                Slidespire(
-                    slides: List<Widget>[],
-                  ),
+    Slidespire(
+                slides: List<Widget>[],
+              ),
 
 
     SizedBox(
-                  //the slider can adapt to the parent container or have its height and width set directly
-                  width: 400,
-                  child: Slidespire(
-                    /// Setting the height of the Slidespire widget.
-                    height: 300,
-                    activePageViewportFraction: 1,
-                    autoSlide: true, // the slider is not animated by default
-                    showDots: true,
-                    showNextPreviousButtons: false,
-                    dotPadding:
-                        const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
-                    inactiveSlideOpacity: 1,
-                    slideMargin: EdgeInsets.zero,
-                    width: MediaQuery.of(context).size.width * .8,
-                    slides: getWallpapers(),
-                  ),
-                ),
+            //the slider can adapt to the parent container or have its height and width set directly
+            width: 400,
+            child: Slidespire(
+              /// Setting the height of the Slidespire widget.
+              height: 300,
+              activePageViewportFraction: 1,
+              autoSlide: true, // the slider is not animated by default
+              showDots: true,
+              showNextPreviousButtons: false,
+              dotPadding:
+                  const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
+              inactiveSlideOpacity: 1,
+              slideMargin: EdgeInsets.zero,
+              width: MediaQuery.of(context).size.width * .8,
+              slides: getWallpapers(),
+            ),
+          ),
 
 ## Defaults
 
@@ -67,7 +67,9 @@ The only required parameter is a list of widgets to show as slides
 
 ## Supported platforms
 
-Flutter iOS
-Flutter Android
-Flutter web
-Flutter desktop
+- iOS
+- Android
+- Web
+- MacOS
+- Windows
+- Linux

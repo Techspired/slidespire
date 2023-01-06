@@ -1,1 +1,1 @@
-This is the esample project
+This is the example project

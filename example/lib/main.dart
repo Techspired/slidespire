@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slidespire/lib/slidespire.dart';
+import 'package:slidespire/slidespire.dart';
 
 void main() {
   runApp(const MyApp());

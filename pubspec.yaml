@@ -17,7 +17,7 @@ description: A Highly Configurable Infinite Horizontal Slider Package for Flutte
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.0.1
+version: 0.0.2
 
 homepage: https://techspired.com/slidespire
 repository: https://github.com/Techspired/slidespire
@@ -34,10 +34,6 @@ dependencies:
   flutter:
     sdk: flutter
   collection:
-    sdk: flutter
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
