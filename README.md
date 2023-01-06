@@ -1,6 +1,6 @@
 # slidespire
 
-An Infinite Horizontal Slider Package for flutter
+A Highly Configurable Infinite Horizontal Slider Package for Flutter
 
 ## Features
 
@@ -37,7 +37,6 @@ The only required parameter is a list of widgets to show as slides
                     slides: getWallpapers(),
                   ),
                 ),
-
 
 ## Defaults
 
