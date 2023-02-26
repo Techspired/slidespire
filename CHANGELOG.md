@@ -1,2 +1,7 @@
-0.0.1 initial
-0.0.2 trying to depend on collection
+- 0.0.1 initial
+- 0.0.2 trying to depend on collection
+- 1.0.0 Readme and example fixes. Made the default height 80% full screen.
+- 1.0.1 Initialized timer
+- 2.0.0 Added Wave Slider; Initialized timer
+- 2.0.1 Updated wave slider
+- 2.0.2 Updated wave slider

@@ -93,6 +93,8 @@ class _SlidespireState extends State<Slidespire> {
       _timer = Timer.periodic(widget.autoSlideDuration, (Timer timer) {
         nextPage();
       });
+    } else {
+      _timer = null;
     }
   }
 
